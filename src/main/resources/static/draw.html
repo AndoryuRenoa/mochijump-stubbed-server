@@ -1,0 +1,31 @@
+<html>
+<head>
+<link rel="stylesheet" href="draw.css">
+</head>
+<div class= "paintBoxContainer">
+	<div class ="paintbox" id="paintBox">
+	</div>
+	<div class ="sizePicker">
+		<p> Enter your level's name:</P>
+		<input type ="text" id= "levelName" name="levelName" value = "keep a record of this name"><br>
+		<button onclick ="callLevel()">Import Level</button>
+		<button onclick ="saveLevel()">Save Level</button><br>
+		<p> Choose brush type:</p>
+		<input type= "radio" onclick ="mochiStart()" name="radioButton"> Mochi's Start Location <br>
+		<input type="radio" onclick ="brushS()" name="radioButton" checked> Small Platform Brush<br>
+		<input type="radio" onclick ="brushM()"name="radioButton"> Medium Platform Brush<br>
+		<input type="radio" onclick ="brushL()"name="radioButton"> Large Platform Brush<br>
+		<input type="radio" onclick ="hairClipNPC()" name="radioButton"> HairClip NPC<br>
+		<input type="radio" onclick ="gooseNPC()" name= "radioButton"> Goose NPC <br>
+		<input type="radio" onclick ="goalNPC()" name ="radioButton"> Goal NPC 
+	</div>
+</div>
+<div class ="words">
+<p id = "demoOutput">Cords go here</p><br>
+<button onclick="clearAll()">Clear All</button>
+<button onclick="delLastAdded()">Undo Last </button>
+</div>
+<script src="draw.js"> </script>
+
+</body>
+</html>

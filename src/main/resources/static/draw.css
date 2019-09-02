@@ -1,0 +1,16 @@
+div.paintbox{
+	border: 5px solid blue;
+	width: 80%;
+	height: 80%;
+	display: inline-block;
+	background-color : rgb(182, 197, 219);
+}
+div.words{
+	float: left;
+}
+div.sizePicker{
+	position: relative;	
+	width: 10%;
+	vertical-align: top;
+	display: inline-block;
+}

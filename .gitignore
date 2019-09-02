@@ -1,0 +1,17 @@
+#eclipse
+.classpath
+.project
+#intellij
+*.iml
+#Logs
+*.out
+# gradle
+gradlew
+gradlew.bat
+/.gradle
+/.settings
+#directories
+/target
+/bin
+/build
+/.idea
